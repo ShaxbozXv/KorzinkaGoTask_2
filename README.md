@@ -57,9 +57,12 @@ Include clear instructions on how to set up and run the ETL pipeline.
 
 **2. Using Azure Databricks for transforming raw data we're doing it in 2 steps. First step we do some data transformation from bronze layer. In bronze layer we are parsing deeply nested JSON format and flutten it and create dataframe and save it into silver layer with option("overWrite"). In the silver layer we are doing deeply cleaning of data and save it into gold layer with option("overWrite") for automate procces when trigger will run.**
 
-**3. After succesfully complating ETL we can schedule trigger for run pipeline. I scheduled running of trigger every day at 19:55 all options works correctly.**
+**3. After succesfully complating ETL we can schedule trigger for run pipeline. I scheduled running of trigger every day at 19:55 all options works correctly for checking it look at the column modified**
 
 ![](Images/ETL.png)
+![](Images/Brozne.png)
+![](Images/Silver.png)
+![](Images/Gold.png)
 
 **4. For view codes in notebooks look at code section**
 
